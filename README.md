@@ -1,8 +1,8 @@
 
 <p align="center">
-  <img src= https://img.freepik.com/foto-gratis/fondo-moderno-lineas-puntos-conexion_1048-7966.jpg width="380" alt="Bloch Sphere"/>
+  <img src= https://img.freepik.com/foto-gratis/fondo-moderno-lineas-puntos-conexion_1048-7966.jpg width="480" alt="Bloch Sphere"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Quantum_circuit.jpg" width="380" alt="Quantum Circuit"/>
+  
   <br>
   <small>Visualizaciones clásicas en CC0 – libres para usar</small>
 </p>
