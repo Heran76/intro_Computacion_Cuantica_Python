@@ -81,7 +81,12 @@ conda install jupyter matplotlib numpy scipy -y
 pip install --upgrade qiskit qiskit-aer qiskit[visualization] qiskit-ibm-runtime
 pip install cirq-core cirq-google pennylane pennylane-lightning
 
-###🔸 Opción 2 – Entorno virtual con venv
+
+```
+---
+### 🔸 Opción 2 – Entorno virtual con venv
+
+
 bash
 # Crear entorno
 python -m venv quantum-env
