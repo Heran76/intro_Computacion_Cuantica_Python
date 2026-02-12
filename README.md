@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://www.freepik.es/foto-gratis/fondo-moderno-lineas-puntos-conexion_2296291.htm#fromView=keyword&page=1&position=12&uuid=c984038f-268b-46c9-af6a-71fec25ec1bd&query=Computacion+cuantica" width="380" alt="Bloch Sphere"/>
+  <img src= https://img.freepik.com/foto-gratis/fondo-moderno-lineas-puntos-conexion_1048-7966.jpg width="380" alt="Bloch Sphere"/>
   &nbsp;&nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Quantum_circuit.jpg" width="380" alt="Quantum Circuit"/>
   <br>
