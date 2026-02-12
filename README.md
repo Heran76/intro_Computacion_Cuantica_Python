@@ -1,7 +1,9 @@
 <p align="center">
-  <img src="https://thumbs.dreamstime.com/b/futuristic-quantum-circuit-board-glowing-qubit-paths-neon-arcs-no-logos-futuristic-circuit-board-entangled-qubit-382100397.jpg" alt="Quantum Circuit Neon" width="700"/>
-  <br><br>
-  <h1>Introducción a la Computación Cuántica con Python</h1>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bloch_sphere.svg" alt="Bloch Sphere" width="380"/>
+  &nbsp;&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Quantum_circuit.jpg" alt="Quantum Circuit" width="380"/>
+  <br>
+  <small>Imágenes en CC0 – Wikimedia Commons (libre de derechos)</small>
 </p>
 
 <p align="center">
