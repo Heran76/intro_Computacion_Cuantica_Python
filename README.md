@@ -1,54 +1,89 @@
 
+# Introducción a la Computación Cuántica con Python
+
 <p align="center">
-  <img src= https://img.freepik.com/foto-gratis/fondo-moderno-lineas-puntos-conexion_1048-7966.jpg width="480" alt="Bloch Sphere"/>
-  &nbsp;&nbsp;&nbsp;
-  
-  <br>
-  <small>Visualizaciones clásicas en CC0 – libres para usar</small>
-</p>
-<p align="center">
-  <i>Explorando el fascinante mundo de los qubits, superposición, entrelazamiento y algoritmos cuánticos mediante código práctico en Python.</i>
+  <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1200" alt="Fondo abstracto cuántico" width="800"/>
   <br><br>
-  <img src="https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Quantum-Qiskit%20%7C%20Cirq%20%7C%20PennyLane-7C4DFF?style=for-the-badge" alt="Frameworks"/>
-  <img src="https://img.shields.io/github/last-commit/TU_USUARIO/intro_Computacion_Cuantica_Python?style=for-the-badge&color=00C853" alt="Último commit"/>
+  <em>Aprendizaje práctico de qubits, circuitos, algoritmos y visualización cuántica mediante Python</em>
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/downloads/">
+    <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  </a>
+  <a href="https://qiskit.org/">
+    <img src="https://img.shields.io/badge/Qiskit-1.x+- purple?style=for-the-badge&logo=qiskit&logoColor=white" alt="Qiskit"/>
+  </a>
+  <a href="https://quantumai.google/cirq">
+    <img src="https://img.shields.io/badge/Cirq-supported-blueviolet?style=for-the-badge" alt="Cirq"/>
+  </a>
+  <a href="https://pennylane.ai/">
+    <img src="https://img.shields.io/badge/PennyLane-supported-9f00ff?style=for-the-badge" alt="PennyLane"/>
+  </a>
+  <br>
+  <img src="https://img.shields.io/github/last-commit/TU_USUARIO/intro_Computacion_Cuantica_Python?style=for-the-badge&color=00C853&logo=github&logoColor=white" alt="Última actualización"/>
+  <img src="https://img.shields.io/github/stars/TU_USUARIO/intro_Computacion_Cuantica_Python?style=for-the-badge&color=gold" alt="Estrellas"/>
 </p>
 
 ---
 
-### 🌌 ¿Qué encontrarás aquí?
+## Descripción
 
-Este repositorio documenta mi viaje personal de aprendizaje y experimentación en **computación cuántica** usando **Python**. Desde conceptos fundamentales hasta implementaciones prácticas de algoritmos cuánticos, todo explicado paso a paso con código ejecutable.
+Este repositorio recoge un recorrido estructurado y práctico por los fundamentos y aplicaciones de la **computación cuántica** utilizando **Python** como lenguaje principal.
 
-**Temas principales que estoy explorando:**
+Incluye explicaciones teóricas breves, implementaciones comentadas, visualizaciones y comparación entre las principales bibliotecas del ecosistema en 2026:
 
-- Fundamentos Matemáticos
-- Puertas cuánticas y circuitos básicos
-- La esfera de Bloch y visualización de estados
-- Algoritmos clásicos cuánticos: Deutsch–Jozsa, Grover, Shor (en progreso), QAOA, VQE...
-- Simuladores locales vs. ejecución en hardware real
-- Bibliotecas modernas: Qiskit, Cirq, PennyLane, OpenQASM...
+- Qiskit (IBM)
+- Cirq (Google Quantum AI)
+- PennyLane (diferenciación cuántica y QML)
 
-<p align="center">
-  <img src="https://i.sstatic.net/nZWsR.png" alt="Bloch sphere entangled state" width="380"/>
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*dyiFT95MfMtkgdhddnPuSA.jpeg" alt="Bloch sphere visualization" width="380"/>
-  <br>
-  <small>Ejemplos de visualización en la esfera de Bloch</small>
-</p>
+### Temas principales cubiertos
 
-### 🛠️ Tecnologías y herramientas que utilizo
+- Fundamentos matemáticos (notación de Dirac, espacios de Hilbert, producto tensorial)
+- Puertas cuánticas universales y circuitos básicos
+- Representación y visualización en la esfera de Bloch
+- Algoritmos cuánticos emblemáticos:
+  - Deutsch–Jozsa
+  - Grover (búsqueda no estructurada)
+  - Shor (factorización) – en desarrollo
+  - QAOA y VQE (optimización combinatoria y química cuántica)
+  - Otros: Bernstein–Vazirani, Simon, HHL (resolución lineal)
+- Simulación local de alta performance vs. ejecución en hardware real
+- Programación híbrida cuántico-clásica
 
-| Biblioteca     | Uso principal                          | Estado en el repo     |
-|----------------|----------------------------------------|------------------------|
-| **Qiskit**     | Circuitos, simulación, hardware IBM    | ★★★ Muy activo        |
-| **Cirq**       | Enfoque en NISQ, Google Quantum AI     | ★★ En exploración     |
-| **PennyLane**  | Quantum Machine Learning, diferenciación | ★★ En progreso      |
-| **matplotlib** / **plotly** | Visualizaciones (Bloch, histogramas) | ★★★ Siempre presente |
-| **numpy**      | Álgebra lineal y estados cuánticos     | ★★★ Base             |
+---
 
-### 📂 Estructura del repositorio (actual → 2026)
+## Instalación recomendada (2026)
 
-```text
-intro_Computacion_Cuantica_Python/
-├── 01_Fundamentos/Matemáticos.
-│   
+### Requisitos mínimos
+
+- Python ≥ 3.11
+- Gestor de entornos: conda (recomendado) o venv + pip
+
+### Opción 1 – Miniconda (más ligera y recomendada)
+
+```bash
+# 1. Descargar Miniconda → https://docs.conda.io/en/latest/miniconda.html
+
+# 2. Crear y activar entorno
+conda create -n quantum python=3.11 -y
+conda activate quantum
+
+# 3. Instalar paquetes principales
+conda install jupyter matplotlib numpy scipy -y
+pip install --upgrade qiskit qiskit-aer qiskit[visualization] qiskit-ibm-runtime
+pip install cirq-core cirq-google pennylane pennylane-lightning
+
+### Opción 2 – 
+python -m venv quantum-env
+source quantum-env/bin/activate    # Linux/macOS
+# quantum-env\Scripts\activate     # Windows
+
+pip install --upgrade pip
+pip install jupyter matplotlib numpy scipy
+pip install qiskit[all] cirq pennylane
+Recomendación de editores/entornos en 2026:
+
+VS Code + extensiones: Jupyter, Python, Pylance, Qiskit
+JupyterLab (ideal para notebooks interactivos)
+PyCharm Professional (muy buen soporte científico) 
