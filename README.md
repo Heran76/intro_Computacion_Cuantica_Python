@@ -22,7 +22,7 @@ Este repositorio documenta mi viaje personal de aprendizaje y experimentación e
 
 **Temas principales que estoy explorando:**
 
-- Fundamentos: qubits, superposición, entrelazamiento, medición
+- Fundamentos Matemáticos
 - Puertas cuánticas y circuitos básicos
 - La esfera de Bloch y visualización de estados
 - Algoritmos clásicos cuánticos: Deutsch–Jozsa, Grover, Shor (en progreso), QAOA, VQE...
@@ -50,5 +50,5 @@ Este repositorio documenta mi viaje personal de aprendizaje y experimentación e
 
 ```text
 intro_Computacion_Cuantica_Python/
-├── 01_Fundamentos/
+├── 01_Fundamentos/Matemáticos.
 │   
