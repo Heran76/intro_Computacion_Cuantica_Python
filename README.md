@@ -1,11 +1,11 @@
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bloch_sphere.svg" alt="Bloch Sphere" width="380"/>
-  &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Quantum_circuit.jpg" alt="Quantum Circuit" width="380"/>
-  <br>
-  <small>Imágenes en CC0 – Wikimedia Commons (libre de derechos)</small>
-</p>
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bloch_sphere.svg" width="380" alt="Bloch Sphere"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Quantum_circuit.jpg" width="380" alt="Quantum Circuit"/>
+  <br>
+  <small>Visualizaciones clásicas en CC0 – libres para usar</small>
+</p>
 <p align="center">
   <i>Explorando el fascinante mundo de los qubits, superposición, entrelazamiento y algoritmos cuánticos mediante código práctico en Python.</i>
   <br><br>
@@ -51,19 +51,4 @@ Este repositorio documenta mi viaje personal de aprendizaje y experimentación e
 ```text
 intro_Computacion_Cuantica_Python/
 ├── 01_Fundamentos/
-│   ├── 01_Qué_es_un_qubit.ipynb
-│   ├── 02_Superposición_y_Hadamard.ipynb
-│   └── 03_Entrelazamiento_Bell.ipynb
-├── 02_Puertas_y_Circuitos/
-│   ├── 01_Puertas_básicas.ipynb
-│   └── 02_Circuitos_multiples_qubits.ipynb
-├── 03_Algoritmos/
-│   ├── Deutsch-Jozsa/
-│   ├── Grover/
-│   └── Variacionales_(QAOA_VQE)/
-├── 04_Visualización/
-│   └── Esfera_de_Bloch_y_otros_plots/
-├── experiments/          ← pruebas rápidas y locas
-├── requirements.txt
-├── .gitignore
-└── README.md             ← tú estás aquí ✦
+│   
