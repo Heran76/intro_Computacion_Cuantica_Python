@@ -102,10 +102,37 @@ pip install --upgrade pip
 pip install jupyter matplotlib numpy scipy
 pip install qiskit[all] cirq pennylane
 
-🧪 Verificación de la instalación
-Ejecuta el siguiente código para confirmar que todo funciona:
+## 📦 Bibliotecas del ecosistema
+### Bibliotecas de computación convencional
 
-python
+pip install numpy==2.3.1  
+*Librería fundamental para cálculo numérico y álgebra lineal*
+
+pip install matplotlib==3.10.1  
+*Visualización de datos y gráficos*
+
+pip install gymnasium==1.2.0  
+*Entornos para aprendizaje por refuerzo*
+
+pip install gymnasium[classic-control]==1.2.0  
+*Entornos clásicos de control para aprendizaje por refuerzo*
+
+### Bibliotecas de desarrollo software cuántico
+
+pip install qiskit==2.1.1  
+*Framework principal de IBM para computación cuántica. Permite construir circuitos y puertas cuánticas*
+
+pip install qiskit[visualizacion]==2.1.1  
+*Utilidades de visualización: diagramas de circuitos, histogramas, esfera de Bloch*
+
+pip install qiskit_aer==0.17.1  
+*Simulador local de alto rendimiento. Necesario porque la mayoría no tenemos ordenador cuántico real*
+
+pip install pyqubo==1.5.0  
+*Para formular problemas de optimización combinatoria en formato QUBO. Útil para algoritmos como QAOA y VQE*
+
+pip install qiskit-ibm-runtime==0.40.1  
+*Para ejecutar algoritmos en simuladores reales y hardware cuántico de IBM vía cloud*
 
 📌 Nota personal
 Este repositorio es mi espacio de experimentación y documentación personal en computación cuántica.
