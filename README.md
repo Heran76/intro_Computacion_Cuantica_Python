@@ -1,4 +1,3 @@
-
 # Introducción a la Computación Cuántica con Python
 
 <p align="center">
@@ -12,7 +11,7 @@
     <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   </a>
   <a href="https://qiskit.org/">
-    <img src="https://img.shields.io/badge/Qiskit-1.x+- purple?style=for-the-badge&logo=qiskit&logoColor=white" alt="Qiskit"/>
+    <img src="https://img.shields.io/badge/Qiskit-1.x+-purple?style=for-the-badge&logo=qiskit&logoColor=white" alt="Qiskit"/>
   </a>
   <a href="https://quantumai.google/cirq">
     <img src="https://img.shields.io/badge/Cirq-supported-blueviolet?style=for-the-badge" alt="Cirq"/>
@@ -27,9 +26,9 @@
 
 ---
 
-## Descripción
+## 📘 Descripción
 
-Este repositorio recoge un recorrido estructurado y práctico por los fundamentos y aplicaciones de la **computación cuántica** utilizando **Python** como lenguaje principal.
+Este repositorio recoge **mi recorrido personal de investigación y estudio** sobre los fundamentos y aplicaciones de la **computación cuántica**, utilizando **Python** como lenguaje principal.
 
 Incluye explicaciones teóricas breves, implementaciones comentadas, visualizaciones y comparación entre las principales bibliotecas del ecosistema en 2026:
 
@@ -37,7 +36,13 @@ Incluye explicaciones teóricas breves, implementaciones comentadas, visualizaci
 - Cirq (Google Quantum AI)
 - PennyLane (diferenciación cuántica y QML)
 
-### Temas principales cubiertos
+<p align="center">
+  <img src="https://img.freepik.com/foto-gratis/fondo-moderno-lineas-puntos-conexion_1048-7966.jpg" alt="Líneas de conexión cuántica" width="800"/>
+  <br>
+  <em>Este repositorio documenta mi investigación y estudios personales en computación cuántica</em>
+</p>
+
+### 🧠 Temas principales cubiertos
 
 - Fundamentos matemáticos (notación de Dirac, espacios de Hilbert, producto tensorial)
 - Puertas cuánticas universales y circuitos básicos
@@ -47,20 +52,22 @@ Incluye explicaciones teóricas breves, implementaciones comentadas, visualizaci
   - Grover (búsqueda no estructurada)
   - Shor (factorización) – en desarrollo
   - QAOA y VQE (optimización combinatoria y química cuántica)
-  - Otros: Bernstein–Vazirani, Simon, HHL (resolución lineal)
+  - Bernstein–Vazirani, Simon, HHL (resolución lineal)
 - Simulación local de alta performance vs. ejecución en hardware real
 - Programación híbrida cuántico-clásica
 
 ---
 
-## Instalación recomendada (2026)
+## ⚙️ Instalación recomendada (2026)
 
 ### Requisitos mínimos
 
 - Python ≥ 3.11
 - Gestor de entornos: conda (recomendado) o venv + pip
 
-### Opción 1 – Miniconda (más ligera y recomendada)
+---
+
+### 🔹 Opción 1 – Miniconda (más ligera y recomendada)
 
 ```bash
 # 1. Descargar Miniconda → https://docs.conda.io/en/latest/miniconda.html
@@ -74,16 +81,32 @@ conda install jupyter matplotlib numpy scipy -y
 pip install --upgrade qiskit qiskit-aer qiskit[visualization] qiskit-ibm-runtime
 pip install cirq-core cirq-google pennylane pennylane-lightning
 
-### Opción 2 – 
+###🔸 Opción 2 – Entorno virtual con venv
+bash
+# Crear entorno
 python -m venv quantum-env
-source quantum-env/bin/activate    # Linux/macOS
-# quantum-env\Scripts\activate     # Windows
 
+# Activar (elige según tu sistema)
+# Linux / macOS:
+source quantum-env/bin/activate
+# Windows:
+# quantum-env\Scripts\activate
+
+# Actualizar pip e instalar
 pip install --upgrade pip
 pip install jupyter matplotlib numpy scipy
 pip install qiskit[all] cirq pennylane
-Recomendación de editores/entornos en 2026:
 
-VS Code + extensiones: Jupyter, Python, Pylance, Qiskit
-JupyterLab (ideal para notebooks interactivos)
-PyCharm Professional (muy buen soporte científico) 
+🧪 Verificación de la instalación
+Ejecuta el siguiente código para confirmar que todo funciona:
+
+python
+
+📌 Nota personal
+Este repositorio es mi espacio de experimentación y documentación personal en computación cuántica.
+No es un curso cerrado ni una guía estática: evoluciona conmigo a medida que avanzo en mi investigación y comprensión del campo.
+
+“La mejor manera de aprender es construir y compartir.”
+
+📄 Licencia
+MIT © [Antonio Heredia Morante] – 2026
