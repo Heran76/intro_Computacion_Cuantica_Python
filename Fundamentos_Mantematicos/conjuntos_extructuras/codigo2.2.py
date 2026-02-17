@@ -21,3 +21,7 @@ print(f'sqrt(x): {np.sqrt(x)}')
 print(f'-x: {-x}')
 print(f'|-x|: {np.abs(-x)}')
 print(f'x^r:{x**r}')
+
+#Operaciones aritméticas con escalare
+print(f'2r+x-3: {2*r+x+3}')
+print(f'2*x/4:{2*4/4}')
