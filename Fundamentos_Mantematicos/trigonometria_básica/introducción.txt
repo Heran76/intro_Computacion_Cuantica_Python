@@ -1,0 +1,32 @@
+(La introducción) De las Sombras del Árbol a los Qubits
+Seguro que todos tenéis una idea de qué va la trigonometría. ¿Os suenan de algo el seno, el coseno, la tangente? Seguramente las recordáis como esas fórmulas que usábamos para calcular la altura de un edificio o los lados de un triángulo, generalmente asociadas a figuras estáticas, a dibujos en un papel.
+
+Y sí, esa es su base. La trigonometría, en su esencia más pura, es el estudio de la relación entre los ángulos y los lados de los triángulos. Es la herramienta que nos permite medir el mundo que nos rodea. Pero, ¿y si os dijera que es mucho más que eso? ¿Y si os dijera que es el lenguaje con el que se escriben las reglas del mundo invisible?
+
+Para entenderlo, vamos a hacer un pequeño cambio de perspectiva. Olvidad el triángulo quieto y dibujado. Ahora, imagina un punto dando vueltas en un círculo, como si fuera una piedra atada a una cuerda que haces girar sobre tu cabeza. ¿Qué pasa si proyectamos la sombra de esa piedra sobre el suelo? Esa sombra no se limita a dar vueltas, sino que va de un lado a otro, describiendo un balanceo suave y rítmico. Ese balanceo, ese vaivén, es una onda. Y esa onda es el seno. El coseno es lo mismo, pero mirando la sombra en la pared de enfrente.
+
+De repente, la trigonometría deja de ser estática. Se convierte en la descripción matemática de todo lo que oscila, vibra o se mueve en círculos.
+
+(El puente) ¿Y Qué Pinta Aquí la Computación Cuántica?
+Aquí es donde viene lo realmente interesante y el motivo por el que estamos hoy aquí. En el mundo clásico de los ordenadores de ahora, todo se reduce a bits. Los bits son como interruptores: o están encendidos (1) o apagados (0). Solo hay dos estados posibles. Punto.
+
+Bienvenidos al mundo cuántico. Aquí las reglas cambian por completo. El bit deja paso al qubit. Un qubit no es un simple interruptor. Es mucho más parecido a esa piedra que giraba alrededor de nuestra cabeza.
+
+Un qubit puede intentar ser 0, puede intentar ser 1, pero lo más alucinante es que puede ser una mezcla rarísima de ambos a la vez, algo que llamamos superposición. ¿Y cómo demonios representamos algo que es una mezcla de dos estados y que además puede "girar" entre ellos? No podemos usar un simple interruptor, necesitamos una herramienta más potente.
+
+Y esa herramienta es... ¡exacto! La trigonometría.
+
+Visualicemos el estado de un qubit no como un interruptor, sino como una flecha (un vector) que apunta a algún lugar de una esfera. Para saber dónde apunta exactamente esa flecha, necesitamos dos cosas:
+
+La inclinación hacia arriba o hacia abajo (que nos dirá si tiene más tendencia a ser 0 o a ser 1).
+
+El ángulo de giro alrededor del eje vertical (lo que llamamos la fase), que es una propiedad puramente cuántica y que es la que permite a los qubits "bailar juntos" y hacer cálculos imposibles para un ordenador normal.
+
+El seno y el coseno son los que nos dan las coordenadas exactas de esa flecha. Nos permiten escribir matemáticamente esa mezcla de ceros y unos. Nos permiten describir ese "bailar" de los qubits.
+
+(La Conclusión) La Gramática del Universo Cuántico
+Por eso estudiamos trigonometría para la computación cuántica. No para medir la altura de un edificio, sino para entender la "gramática" con la que está escrito el código fuente del universo a nivel microscópico.
+
+Sin el seno y el coseno, no podríamos describir el estado de un qubit. No podríamos entender cómo se "enredan" (otro concepto fascinante que veremos) y, por lo tanto, no podríamos diseñar los algoritmos que harán que estos ordenadores sean capaces de descubrir nuevos fármacos, crear materiales imposibles o romper las claves de cifrado actuales.
+
+Así que, cuando veáis una onda sinusoidal, no penséis en un simple dibujo. Pensad en ella como la huella digital de la realidad cuántica, como la herramienta que nos permite, a nosotros, simples mortales, empezar a vislumbrar el increíble potencial que esconden las partículas más pequeñas del universo. Es la llave para pasar de la estática del mundo clásico a la danza de posibilidades del mundo cuántico.
